@@ -1,7 +1,7 @@
 package main
 
 import (
-	"/internal/router"
+	"github.com/stretchr/testify/tree/master/require/internal/router"
 	"net/http"
 )
 

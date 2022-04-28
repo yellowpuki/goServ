@@ -2,7 +2,8 @@ package router
 
 import "net/http"
 
-type rootHandler struct{}
+type rootHandler struct {
+}
 
 func (rh rootHandler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 	var head string
