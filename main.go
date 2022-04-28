@@ -1,6 +1,9 @@
 package main
 
-import "net/http"
+import (
+	"/internal/router"
+	"net/http"
+)
 
 func main() {
 	r := router.New()

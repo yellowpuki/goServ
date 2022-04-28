@@ -1,8 +1,12 @@
 package router
 
-import "net/http"
+import (
+	"net/http"
+)
 
-type Router struct{}
+type Router struct {
+	rootHandler rootHandler
+}
 
 func New() *Router {
 	return &Router{}
